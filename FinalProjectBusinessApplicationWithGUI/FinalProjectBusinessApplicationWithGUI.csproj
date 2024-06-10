@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{927C7B32-4559-41EE-BE11-C1AA5F584275}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalProjectBusinessApplicationWithGUI</RootNamespace>
+    <AssemblyName>FinalProjectBusinessApplicationWithGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="AdminFunctionality1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality1.Designer.cs">
+      <DependentUpon>AdminFunctionality1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFunctionality2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality2.Designer.cs">
+      <DependentUpon>AdminFunctionality2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFunctionality3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality3.Designer.cs">
+      <DependentUpon>AdminFunctionality3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFunctionality4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality4.Designer.cs">
+      <DependentUpon>AdminFunctionality4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFunctionality5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality5.Designer.cs">
+      <DependentUpon>AdminFunctionality5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFunctionality6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality6.Designer.cs">
+      <DependentUpon>AdminFunctionality6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFunctionality7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality7.Designer.cs">
+      <DependentUpon>AdminFunctionality7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFunctionality8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFunctionality8.Designer.cs">
+      <DependentUpon>AdminFunctionality8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInterfaceScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminInterfaceScreen.Designer.cs">
+      <DependentUpon>AdminInterfaceScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cars.cs" />
+    <Compile Include="CarsDL.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="customerDL.cs" />
+    <Compile Include="CustomerFunctionality1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerFunctionality1.Designer.cs">
+      <DependentUpon>CustomerFunctionality1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerFunctionality2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerFunctionality2.Designer.cs">
+      <DependentUpon>CustomerFunctionality2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerFunctionality3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerFunctionality3.Designer.cs">
+      <DependentUpon>CustomerFunctionality3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerFunctionality4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerFunctionality4.Designer.cs">
+      <DependentUpon>CustomerFunctionality4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customerfunctionality5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerfunctionality5.Designer.cs">
+      <DependentUpon>customerfunctionality5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerFunctionality7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerFunctionality7.Designer.cs">
+      <DependentUpon>CustomerFunctionality7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerInterfaceScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerInterfaceScreen.Designer.cs">
+      <DependentUpon>CustomerInterfaceScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CutomerFunctionaity6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CutomerFunctionaity6.Designer.cs">
+      <DependentUpon>CutomerFunctionaity6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musers.cs" />
+    <Compile Include="MusersDL.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignInScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignInScreen.Designer.cs">
+      <DependentUpon>SignInScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUpScreen.Designer.cs">
+      <DependentUpon>SignUpScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updateform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updateform.Designer.cs">
+      <DependentUpon>Updateform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validations.cs" />
+    <EmbeddedResource Include="AdminFunctionality1.resx">
+      <DependentUpon>AdminFunctionality1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFunctionality2.resx">
+      <DependentUpon>AdminFunctionality2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFunctionality3.resx">
+      <DependentUpon>AdminFunctionality3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFunctionality4.resx">
+      <DependentUpon>AdminFunctionality4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFunctionality5.resx">
+      <DependentUpon>AdminFunctionality5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFunctionality6.resx">
+      <DependentUpon>AdminFunctionality6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFunctionality7.resx">
+      <DependentUpon>AdminFunctionality7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFunctionality8.resx">
+      <DependentUpon>AdminFunctionality8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminInterfaceScreen.resx">
+      <DependentUpon>AdminInterfaceScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerFunctionality1.resx">
+      <DependentUpon>CustomerFunctionality1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerFunctionality2.resx">
+      <DependentUpon>CustomerFunctionality2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerFunctionality3.resx">
+      <DependentUpon>CustomerFunctionality3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerFunctionality4.resx">
+      <DependentUpon>CustomerFunctionality4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerfunctionality5.resx">
+      <DependentUpon>customerfunctionality5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerFunctionality7.resx">
+      <DependentUpon>CustomerFunctionality7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerInterfaceScreen.resx">
+      <DependentUpon>CustomerInterfaceScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CutomerFunctionaity6.resx">
+      <DependentUpon>CutomerFunctionaity6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SignInScreen.resx">
+      <DependentUpon>SignInScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpScreen.resx">
+      <DependentUpon>SignUpScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updateform.resx">
+      <DependentUpon>Updateform.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghost_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alienn-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpic1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpic3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpic4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vaporwave-aesthetic-4k-laptop-car-78zd87yydl2infte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2019_Lamborghini_SC18_4K_Car_Wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-car-color-lights-luxury-car-picture-image_2401150.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-twin-turbo-lambo-black-car-lamborghini-new-sport-sunset-supercar-turbo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_417165827_MmUGVFwnBtjNJxImMwGAYsPg5p4V1tvE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lamborghini_huracan_6_4k_hd_cars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lamborghini-epic-sunset-5k-9u.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lamborghini-aventador-super-sports-cars-3440x1440-5740.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\artistic-retro-wave-car-digital-art-moon-hd-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05360e96a9e14965b5cdfc69f08248be.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orvel - suton 1306 hp master00_03_01_02still079380x190_2x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_578043025_txks6rcmwcOUGakl8uEjlsnU3tKSXYt8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_580869182_hJJHRrFhdPizxUFwaxNZeycWKhZQ4Pyb.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

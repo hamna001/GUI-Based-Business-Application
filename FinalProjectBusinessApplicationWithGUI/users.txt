@@ -1,0 +1,5 @@
+hamna,123,Admin
+ramsha,123,Admin
+asim,111,Customer
+areej,123,Customer
+affan,900,Admin
